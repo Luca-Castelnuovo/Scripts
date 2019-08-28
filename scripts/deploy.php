@@ -1,5 +1,7 @@
 <?php
 
+Global $configClient;
+
 $data = file_get_contents('php://input');
 $signature = hash_hmac('sha1', $data, $configClient->getValue("deploySecret", ""));
 // $data = json_decode($data, true);
