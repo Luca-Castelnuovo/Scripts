@@ -1,2 +1,2 @@
-# Scripts
+# [DEPRECATED] Scripts
 Generic scripts hosting
